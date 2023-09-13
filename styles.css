@@ -38,7 +38,7 @@ footer{
     .card{
         display: block;
         width: 100%;
-        text-align: justify;
         border-bottom: black solid 1px;
+        border-right: 0px;
     }
 }

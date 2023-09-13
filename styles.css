@@ -1,9 +1,44 @@
-h1, h2{
+body{
+    background-color: antiquewhite;
+}
+#top
+{
+    text-align: center;
+}
+.left{
+    display: inline-block;
+    width: 50%;
+    border-right: solid 1px #0F2C59;
+
+}
+.right{
+    width: 48%;
+float: right;
+text-align: justify;
+
+}
+.exp-title{
+font-weight: bolder;}
+
+.title{
     color: #22668D;
+    text-align: center;
+    text-decoration: underline;
 }
 a{
     color: blue;
 }
 h3{
     color: #0F2C59;
+}
+footer{
+    text-align: right;
+}
+@media(max-width:500px){
+    .card{
+        display: block;
+        width: 100%;
+        text-align: justify;
+        border-bottom: black solid 1px;
+    }
 }

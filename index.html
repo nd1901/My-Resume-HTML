@@ -6,15 +6,18 @@
     <title>My Resume</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body bgcolor= "F8F0E5">
-    <img height="250" src="./assets/images/kimetsu-no-yaiba-wallpaper-2008311403206.jpg" alt="Nitin Profile Image">
+<body>
+    <div id="top">
+        <img height="250" src="./assets/images/kimetsu-no-yaiba-wallpaper-2008311403206.jpg" alt="Nitin Profile Image">
     <h1>Nitin Dhawan</h1>
     <h3>Full Stack Developer</h3>
     <p>
         <a href="./public/contact.html">Contact me</a>
     </p>
+    </div>
     <hr>
-    <h2>Profile</h2>
+    <div id="profile" >
+        <h2>Profile</h2>
     <p>
         I'm a full stack developer with a passion for creating web applications that are user-friendly, responsive and secure.
         <br>
@@ -22,12 +25,14 @@
         <br>
         I'm also a team player who values collaboration, communication and feedback. You can check out some of my projects on my GitHub profile or on my portfolio website. Thank you for visiting my about me page! 
     </p>
+    </div>
     <hr>
-    <h2>Work Experience</h2>
+    <div id="work-exp" class="card left">
+        <h2 class="title">Work Experience</h2>
     <p>
         <ul>
             <li>
-                TECHNICAL SALES REPRESENTATIVE | 02/2022 to Current <br>
+                <span class="exp-title"> TECHNICAL SALES REPRESENTATIVE | 02/2022 to Current</span> <br>
                 <a target="_blank" href="https://www.google.com/maps/@45.3202723,-75.839389,3a,75y,316.99h,93.53t/data=!3m6!1e1!3m4!1s50gYnpRZME_78HaOIMn9yw!2e0!7i16384!8i8192?entry=ttu">🚦 Millennium 1 Solutions - Ottawa, ON</a> 
                 <ul>
                     <li>
@@ -45,7 +50,7 @@
                 </ul>
                 <br>
                 <li>
-                    ASSISTANT STORE MANAGER | 07/2021 to 07/2022 <br>
+                    <span class="exp-title">ASSISTANT STORE MANAGER | 07/2021 to 07/2022</span> <br>
                     <a target="_blank" href="https://www.google.com/maps/@45.3419592,-75.7863923,3a,75y,2.95h,83.81t/data=!3m6!1e1!3m4!1sqSXdj1mqeNC5hzsCxxxXtw!2e0!7i16384!8i8192?entry=ttu">🚦 Tim Horton's - Ottawa, ON</a> 
                     <ul>
                         <li>
@@ -70,7 +75,7 @@
                 </li>
                 <br>
                 <li>
-                    SUPERVISOR | 05/2020 to 08/2021 <br>
+                    <span class="exp-title">SUPERVISOR | 05/2020 to 08/2021</span> <br>
                     <a target="_blank" href="https://www.google.com/maps/@45.3692986,-75.7024685,3a,75y,270.78h,90.68t/data=!3m6!1e1!3m4!1so1u_rPk-J2SoYJuRNRYuSw!2e0!7i16384!8i8192?entry=ttu">🚦 Tim Horton's - Ottawa, ON</a> 
                     <ul>
                         <li>Established and enforced clear goals to keep employees working collaboratively.</li>
@@ -84,15 +89,18 @@
             
         </ul>
     </p>
-    <p>
-    <hr>
-        <h2>Education/Qualifications</h2>
-        <ul>
-            <li>
-                Business management and Entrepreneurship (2 yr. Diploma) <br>
-                <a target="_blank" href="https://www.google.com/maps/@45.3505716,-75.7542417,43a,35y,237h,77.73t/data=!3m1!1e3?entry=ttu">Algonquin College - Ottawa, ON, Canada</a> 
-            </li>
-        </ul>
-    </p>
+    </div>
+    <div id="edu" class="card right">
+        <p>
+                <h2 class="title">Education/Qualifications</h2>
+                <ul>
+                    <li>
+                        Business management and Entrepreneurship (2 yr. Diploma) <br>
+                        <a target="_blank" href="https://www.google.com/maps/@45.3505716,-75.7542417,43a,35y,237h,77.73t/data=!3m1!1e3?entry=ttu">Algonquin College - Ottawa, ON, Canada</a> 
+                    </li>
+                </ul>
+            </p>
+    </div>  
+    <footer>©Made by Nitin Dhawan</footer>
 </body>
 </html>
